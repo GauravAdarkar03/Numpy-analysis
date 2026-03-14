@@ -1,0 +1,33 @@
+Task 1 Explanation:
+
+We used NumPy functions to create different arrays:
+* np.random.randint() for random integers
+* np.ones() for arrays filled with ones
+* np.linspace() for evenly spaced values
+* np.eye() for identity matrix
+
+We also inspected array properties such as shape, dimensions, size, dtype, and memory usage.
+
+
+Task 2 Explanation: 
+
+We compared Python lists vs NumPy arrays in terms of:
+Memory
+* Python lists store objects → more memory
+* NumPy arrays store elements in contiguous memory → efficient
+Speed
+* Lists require loops
+* NumPy uses vectorized operations, making it significantly faster.
+
+
+Task 3 Explanation: 
+
+We simulated 30 days of sales for 4 products.
+    
+Using NumPy operations we calculated:
+
+* Total product sales using sum(axis=0)
+* Daily averages using mean(axis=1)
+* Maximum sales day using np.argmax()
+* Product with minimum average sales using np.argmin()
+Finally, we optimized memory by converting int64 to float32.
