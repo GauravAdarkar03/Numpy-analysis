@@ -2,7 +2,7 @@
 
 SAMPLE OUTPUT
 
-=== TASK 1: Array Creation and Properties ===
+**=== TASK 1: Array Creation and Properties ===**
 
 Array 1 - Random Integers:
 [23 45 12 ... 34 8 41]
@@ -24,7 +24,7 @@ Item Size: 8 bytes
 
 [Similar output for arrays 3 and 4]
 
-=== TASK 2: Memory and Speed Comparison ===
+**=== TASK 2: Memory and Speed Comparison ===**
 
 Memory Consumption:
 Python List: 87624 bytes
@@ -36,7 +36,7 @@ List Addition Time: 0.0123 seconds
 NumPy Addition Time: 0.0008 seconds
 NumPy is 15.38x faster than Python lists
 
-=== TASK 3: Sales Data Analysis ===
+**=== TASK 3: Sales Data Analysis ===**
 
 Sales Data Shape: (30, 4)
 
